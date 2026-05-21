@@ -1,5 +1,8 @@
+import React from "react";
+
 interface HoneycombAccentProps {
   className?: string;
+  style?: React.CSSProperties;
   opacity?: number;
   color?: string;
   size?: number;
@@ -7,6 +10,7 @@ interface HoneycombAccentProps {
 
 export default function HoneycombAccent({
   className = "",
+  style,
   opacity = 0.15,
   color = "#D4A017",
   size = 120,
@@ -19,6 +23,7 @@ export default function HoneycombAccent({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={`pointer-events-none select-none ${className}`}
+      style={style}
       aria-hidden="true"
     >
       <path

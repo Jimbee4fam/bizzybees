@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 import Link from "next/link";
 import QuoteCTA from "@/components/QuoteCTA";
 import HoneycombAccent from "@/components/HoneycombAccent";

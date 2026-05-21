@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
